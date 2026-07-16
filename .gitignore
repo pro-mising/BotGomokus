@@ -1,0 +1,24 @@
+backendcloud/backend/config/backend-local.properties
+
+# Java / Maven build output
+**/target/
+*.class
+*.log
+
+# Node / Vue dependencies and build output
+**/node_modules/
+**/dist/
+**/.cache/
+
+# Local IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env
+.env.*
+!*.example
+**/*-local.properties
