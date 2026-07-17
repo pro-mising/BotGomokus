@@ -1,10 +1,9 @@
 package com.kob.backend.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.kob.backend.pojo.RecordAnalysis;
 import org.apache.ibatis.annotations.Mapper;
-import com.kob.backend.pojo.Record;
 
 @Mapper
-public interface RecordMapper extends BaseMapper<Record> {
-
+public interface RecordAnalysisMapper extends BaseMapper<RecordAnalysis> {
 }
